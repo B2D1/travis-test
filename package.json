@@ -6,7 +6,7 @@
   "author": "B2D1 <baobangdong@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "echo I'm testing"
+    "test": "echo just test it"
   },
   "dependencies": {
     "koa": "^2.11.0"
