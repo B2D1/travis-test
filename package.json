@@ -1,0 +1,14 @@
+{
+  "name": "travis-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:B2D1/travis-test.git",
+  "author": "B2D1 <baobangdong@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo I'm testing"
+  },
+  "dependencies": {
+    "koa": "^2.11.0"
+  }
+}

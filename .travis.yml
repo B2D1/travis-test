@@ -1,0 +1,7 @@
+# 构建环境
+language: node_js
+# node_js 版本
+node_js:
+  - 12
+after_success:
+  - echo 'I successfully done'
