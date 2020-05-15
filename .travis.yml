@@ -6,7 +6,7 @@ node_js:
 # 将远程服务器加入信任列表
 addons:
   ssh_known_hosts: 47.106.87.3
-# 解密 id_rsa.enc，并修改id_rsa权限
+# 解密 id_rsa.enc，并修改 id_rsa 权限
 before_install:
   - openssl aes-256-cbc -K $encrypted_9b2d7e19d83c_key -iv $encrypted_9b2d7e19d83c_iv
     -in id_rsa.enc -out ~/.ssh/id_rsa -d
