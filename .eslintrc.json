@@ -1,13 +1,14 @@
 {
   "extends": ["eslint:recommended", "google"],
   "env": {
-    "node": true
+    "node": true,
+    "jest": true
   },
   "parserOptions": {
-    "ecmaVersion": 6
+    "ecmaVersion": 8
   },
   "rules": {
     "eqeqeq": 2
   },
-  "ignorePatterns": ["ecosystem.config.js", "__tests__"]
+  "ignorePatterns": ["ecosystem.config.js"]
 }
