@@ -21,9 +21,9 @@ module.exports = {
       // git 分支
       ref: 'origin/master',
       // git 仓库地址（ssh）
-      repo: 'git@github.com:B2D1/travis-demo.git',
+      repo: 'git@github.com:B2D1/travis-test.git',
       // 项目在远程服务器的存放路径
-      path: '/root/travis-deploy-demo',
+      path: '/root/travis-test-deploy',
       // PM2拉取最新分支后，安装 npm 包，并启动（重启）NodeJS 应用
       'post-deploy':
         'source ~/.nvm/nvm.sh && yarn install && pm2 startOrRestart ecosystem.config.js',
