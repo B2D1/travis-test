@@ -1,0 +1,13 @@
+{
+  "extends": ["eslint:recommended", "google"],
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "eqeqeq": 2
+  },
+  "ignorePatterns": ["ecosystem.config.js", "__tests__"]
+}

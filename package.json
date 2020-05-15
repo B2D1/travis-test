@@ -6,9 +6,17 @@
   "author": "B2D1 <baobangdong@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "echo just test it"
+    "lint": "eslint . --fix",
+    "test": "jest",
+    "pretest": "npm run lint"
   },
   "dependencies": {
     "koa": "^2.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^26.0.1",
+    "supertest": "^4.0.2"
   }
 }
